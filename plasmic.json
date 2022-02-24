@@ -1,0 +1,137 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "qkq1GYJeSisdsoHAunA7GS",
+      "projectApiToken": "gXrXqXqgwOIcXf0DkR0mLYM0he14wWrJX6I5SCQytGOBk7gi0nyN1JDUkcPv9WSFzsQbwbaIGlRuybbhvD7w",
+      "projectName": "Copy of Chat Box SG",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_chat_box_sg/plasmic_copy_of_chat_box_sg.module.css",
+      "components": [
+        {
+          "id": "pG3EAro069LM",
+          "name": "Page1",
+          "type": "managed",
+          "projectId": "qkq1GYJeSisdsoHAunA7GS",
+          "renderModuleFilePath": "plasmic/copy_of_chat_box_sg/PlasmicPage1.jsx",
+          "importSpec": {
+            "modulePath": "Page1.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_chat_box_sg/PlasmicPage1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "tSPm0LoBpBYbm",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "qkq1GYJeSisdsoHAunA7GS",
+          "renderModuleFilePath": "plasmic/copy_of_chat_box_sg/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_chat_box_sg/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "FHsN5oHAGgn",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "qkq1GYJeSisdsoHAunA7GS",
+          "renderModuleFilePath": "plasmic/copy_of_chat_box_sg/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_chat_box_sg/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "LUt3jcnr2mbD",
+          "name": "Page2",
+          "type": "managed",
+          "projectId": "qkq1GYJeSisdsoHAunA7GS",
+          "renderModuleFilePath": "plasmic/copy_of_chat_box_sg/PlasmicPage2.jsx",
+          "importSpec": {
+            "modulePath": "Page2.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_chat_box_sg/PlasmicPage2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "ZjAFBkYAIMwUC",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/copy_of_chat_box_sg/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "4WQZ-hgAPFnck",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/copy_of_chat_box_sg/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "jas9XikRgMhYa",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_chat_box_sg/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "8-M5790gK1Q09",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/copy_of_chat_box_sg/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "72xS4VPZ6czI5",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/copy_of_chat_box_sg/icons/PlasmicIcon__Icon3.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "JMSz_eBA8vyq7",
+          "name": "image.png",
+          "filePath": "plasmic/copy_of_chat_box_sg/images/imagepng.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "fioTyyUSNqW2P",
+        "name": "Screen",
+        "projectId": "qkq1GYJeSisdsoHAunA7GS",
+        "contextFilePath": "plasmic/copy_of_chat_box_sg/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.171",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.171/dist/plasmic.schema.json"
+}
